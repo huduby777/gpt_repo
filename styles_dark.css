@@ -7,7 +7,7 @@
   --line: #48423c;
   --accent: #d6a85f;
   --body-font: "Manrope", sans-serif;
-  --meta-font: "DM Mono", monospace;
+  --meta-font: "Manrope", sans-serif;
 }
 
 * { box-sizing: border-box; }
