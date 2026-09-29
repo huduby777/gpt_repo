@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>이미경 | SW Educator</title>
+    <link rel="stylesheet" href="styles_figma.css" />
+    <script src="script_figma.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="주요 메뉴">
+        <a class="brand" href="#top" aria-label="처음으로">
+          <span class="brand-mark">&gt;_</span>
+          <span>LEE M.K</span>
+        </a>
+        <button
+          class="menu-button"
+          type="button"
+          aria-expanded="false"
+          aria-controls="main-menu"
+          aria-label="메뉴 열기"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links" id="main-menu">
+          <a href="#about">About</a>
+          <a href="#knowledge">Knowledge</a>
+          <a href="#projects">Projects</a>
+          <a href="#teaching">Teaching</a>
+          <a href="#log">Log</a>
+          <a class="nav-contact" href="mailto:hello@example.com"
+            >이야기 나누기 <span aria-hidden="true">→</span></a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-glow hero-glow-one"></div>
+        <div class="hero-glow hero-glow-two"></div>
+        <div class="container hero-layout">
+          <div class="hero-copy reveal">
+            <p class="eyebrow light"><span></span> SOFTWARE EDUCATOR & DEVELOPER</p>
+            <h1>
+              기술을 배우는 순간이<br />
+              <strong>성장의 시작</strong>이 되도록
+            </h1>
+            <p class="hero-description">
+              복잡한 소프트웨어 개념을 명확한 언어와 경험으로 연결합니다.<br />
+              배우는 사람이 스스로 해낼 수 있는 교육을 설계합니다.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects"
+                >프로젝트 보기 <span aria-hidden="true">→</span></a
+              >
+              <a class="button button-secondary" href="#teaching">교육 분야 살펴보기</a>
+            </div>
+            <div class="hero-stats">
+              <div><strong>08+</strong><span>교육 경력</span></div>
+              <div><strong>1,200+</strong><span>함께한 학습자</span></div>
+              <div><strong>42</strong><span>완료한 클래스</span></div>
+            </div>
+          </div>
+        </div>
+        <a class="scroll-hint" href="#about">SCROLL <span></span></a>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="container split-layout">
+          <div class="section-intro reveal">
+            <p class="eyebrow">01 / ABOUT ME</p>
+            <h2>배움의 여정을<br />함께 설계합니다.</h2>
+          </div>
+          <div class="about-content reveal">
+            <p class="about-lead">
+              안녕하세요. <strong>8년 차 소프트웨어 강사이자 개발자</strong>
+              이미경입니다. 기술을 단순히 전달하기보다, 학습자가 문제를 정의하고
+              스스로 답을 찾는 과정을 돕습니다.
+            </p>
+            <div class="stats">
+              <div><strong>08+</strong><span>교육 경력</span></div>
+              <div><strong>1,200+</strong><span>함께한 학습자</span></div>
+              <div><strong>42</strong><span>완료한 클래스</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section knowledge" id="knowledge">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">02 / KNOWLEDGE MAP</p>
+              <h2>지식의 지도를 그립니다.</h2>
+            </div>
+            <p>개발과 교육 사이를 연결하며 쌓아온 핵심 역량입니다.</p>
+          </div>
+          <div class="knowledge-grid">
+            <article class="knowledge-card reveal">
+              <div class="card-top"><span class="icon">&lt;/&gt;</span><small>01</small></div>
+              <h3>Frontend</h3>
+              <p>React · TypeScript</p>
+              <div class="meter"><i style="--level: 92%"></i></div>
+              <small class="score">92%</small>
+            </article>
+            <article class="knowledge-card reveal">
+              <div class="card-top"><span class="icon">DB</span><small>02</small></div>
+              <h3>Backend</h3>
+              <p>Node.js · REST API</p>
+              <div class="meter"><i style="--level: 84%"></i></div>
+              <small class="score">84%</small>
+            </article>
+            <article class="knowledge-card reveal">
+              <div class="card-top"><span class="icon">CL</span><small>03</small></div>
+              <h3>Cloud & DevOps</h3>
+              <p>AWS · Docker · CI/CD</p>
+              <div class="meter"><i style="--level: 76%"></i></div>
+              <small class="score">76%</small>
+            </article>
+            <article class="knowledge-card reveal">
+              <div class="card-top"><span class="icon">DT</span><small>04</small></div>
+              <h3>Data</h3>
+              <p>Python · SQL · Visualization</p>
+              <div class="meter"><i style="--level: 82%"></i></div>
+              <small class="score">82%</small>
+            </article>
+            <article class="knowledge-card reveal">
+              <div class="card-top"><span class="icon">ED</span><small>05</small></div>
+              <h3>Education</h3>
+              <p>Curriculum · Facilitation</p>
+              <div class="meter"><i style="--level: 95%"></i></div>
+              <small class="score">95%</small>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="container">
+          <div class="section-heading dark reveal">
+            <div>
+              <p class="eyebrow light">03 / SELECTED PROJECTS</p>
+              <h2>배움을 위한 도구들</h2>
+            </div>
+            <p>수업에서 발견한 문제를 제품과 코드로 해결한 프로젝트입니다.</p>
+          </div>
+          <div class="projects-grid">
+            <article class="project-card reveal">
+              <div class="project-art art-garden">
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+              <div class="project-body">
+                <div class="project-meta"><span>01 / EDTECH PLATFORM</span><i>↗</i></div>
+                <h3>Code Garden</h3>
+                <p>학습자의 성장을 한눈에 볼 수 있는 실시간 코딩 교육 플랫폼</p>
+                <div class="tags"><span>React</span><span>Node.js</span><span>WebSocket</span></div>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <div class="project-art art-atlas">
+                <span>A</span><span>B</span><span>C</span><span>D</span>
+              </div>
+              <div class="project-body">
+                <div class="project-meta"><span>02 / LEARNING TOOL</span><i>↗</i></div>
+                <h3>Algorithm Atlas</h3>
+                <p>어려운 알고리즘을 인터랙티브 시각화로 이해하는 학습 도구</p>
+                <div class="tags"><span>TypeScript</span><span>D3.js</span><span>Vite</span></div>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <div class="project-art art-pulse">
+                <span></span><span></span><span></span><span></span><span></span><span></span>
+              </div>
+              <div class="project-body">
+                <div class="project-meta"><span>03 / DASHBOARD</span><i>↗</i></div>
+                <h3>Classroom Pulse</h3>
+                <p>수업 참여도와 학습 데이터를 분석하는 강사용 대시보드</p>
+                <div class="tags"><span>Next.js</span><span>PostgreSQL</span><span>Charts</span></div>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <div class="project-art art-test">
+                <div class="code-window">
+                  <b><i></i><i></i><i></i></b>
+                  <code><em>describe</em>("learning", () =&gt; {<br />&nbsp;&nbsp;expect(growth).toBe(true);<br />});</code>
+                </div>
+              </div>
+              <div class="project-body">
+                <div class="project-meta"><span>04 / OPEN SOURCE</span><i>↗</i></div>
+                <h3>Tiny Test Lab</h3>
+                <p>처음 테스트 코드를 배우는 개발자를 위한 오픈소스 실습 키트</p>
+                <div class="tags"><span>Vitest</span><span>Storybook</span><span>Docs</span></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section teaching" id="teaching">
+        <div class="container split-layout">
+          <div class="section-intro teaching-intro reveal">
+            <p class="eyebrow">04 / TEACHING</p>
+            <h2>가르치는<br />다섯 가지 분야</h2>
+            <p>개념 이해부터 실제 프로젝트 완성까지, 단계별로 설계된 교육을 제공합니다.</p>
+          </div>
+          <div class="teaching-list">
+            <article class="teaching-item reveal">
+              <small>01</small><div><h3>웹 프론트엔드</h3><p>HTML/CSS부터 React까지, 사용자 경험을 코드로 구현합니다.</p></div><span>&lt;/&gt;</span>
+            </article>
+            <article class="teaching-item reveal">
+              <small>02</small><div><h3>백엔드 & API</h3><p>안정적인 서버와 RESTful API 설계의 원리를 익힙니다.</p></div><span>DB</span>
+            </article>
+            <article class="teaching-item reveal">
+              <small>03</small><div><h3>클라우드 & 배포</h3><p>직접 만든 서비스를 클라우드에 배포하고 운영합니다.</p></div><span>CL</span>
+            </article>
+            <article class="teaching-item reveal">
+              <small>04</small><div><h3>데이터 리터러시</h3><p>데이터를 탐색하고 의미 있는 이야기를 발견합니다.</p></div><span>DT</span>
+            </article>
+            <article class="teaching-item reveal">
+              <small>05</small><div><h3>소프트웨어 설계</h3><p>좋은 코드를 넘어, 함께 성장하는 개발 방식을 배웁니다.</p></div><span>SW</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section learning-log" id="log">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">05 / LEARNING LOG</p>
+              <h2>배우고, 기록합니다.</h2>
+            </div>
+            <a class="view-all" href="#log">모든 글 보기 →</a>
+          </div>
+          <div class="log-list">
+            <article class="log-item reveal"><time>2025. 02. 18</time><div><small>EDUCATION</small><h3>AI 시대, 개발 교육은 무엇을 가르쳐야 할까</h3><p>도구보다 오래 남는 사고방식과 문제 해결력에 대하여</p></div><span>01&nbsp;&nbsp;→</span></article>
+            <article class="log-item reveal"><time>2025. 01. 29</time><div><small>MENTORING</small><h3>좋은 코드 리뷰를 만드는 세 가지 질문</h3><p>정답을 알려주는 대신 스스로 발견하게 돕는 리뷰 방법</p></div><span>02&nbsp;&nbsp;→</span></article>
+            <article class="log-item reveal"><time>2025. 01. 12</time><div><small>FRONTEND</small><h3>React Server Components 이해하기</h3><p>서버와 클라이언트의 경계를 다시 생각해본 학습 기록</p></div><span>03&nbsp;&nbsp;→</span></article>
+            <article class="log-item reveal"><time>2024. 12. 21</time><div><small>RETROSPECTIVE</small><h3>50명의 수강생과 함께한 프로젝트 회고</h3><p>팀 프로젝트에서 배운 협업과 퍼실리테이션의 기술</p></div><span>04&nbsp;&nbsp;→</span></article>
+            <article class="log-item reveal"><time>2024. 12. 03</time><div><small>TEACHING</small><h3>설명하지 않고 이해시키는 시각화</h3><p>복잡한 개념을 단순한 그림과 비유로 전달하는 법</p></div><span>05&nbsp;&nbsp;→</span></article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-main">
+          <div>
+            <p class="eyebrow light">LET'S LEARN & BUILD TOGETHER</p>
+            <h2>함께 배우고 성장할<br />준비가 되셨나요?</h2>
+          </div>
+          <div class="footer-contact">
+            <a class="button button-primary" href="mailto:hello@example.com"
+              >hello@minjun.dev <span>→</span></a
+            >
+            <div class="socials">
+              <a href="#" aria-label="GitHub">GH</a>
+              <a href="mailto:hello@example.com" aria-label="이메일">@</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© <span id="year">2025</span> MINJUN KIM. ALL RIGHTS RESERVED.</p>
+          <p>DESIGNED WITH CURIOSITY · BUILT WITH CODE</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

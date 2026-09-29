@@ -781,7 +781,7 @@ h2 em,
   display: flex;
   justify-content: space-between;
   align-items: start;
-  gap: 32px;
+  gap: 100px;
 }
 .footer-intro h2 {
   margin: 8px 0 4px;
@@ -816,7 +816,7 @@ h2 em,
 .contact-footer .footer-line {
   display: flex;
   justify-content: space-between;
-  gap: 14px;
+  gap: 1px;
   margin-top: 28px;
   padding-top: 14px;
 }
@@ -1024,7 +1024,7 @@ h2 em,
 .contact-footer {
   background: #143d4b;
   color: #fff;
-  border-top: 4px solid #d85f45;
+  border-top: 1px solid #d85f45;
 }
 .contact-footer .label {
   color: var(--hero-accent);
